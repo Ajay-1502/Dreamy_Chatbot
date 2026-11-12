@@ -1,0 +1,24 @@
+{
+  "name": "webdreams-chat",
+  "version": "1.0.0",
+  "description": "Dreamy: chat assistant for webdreams.in, powered by the Claude API",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.131.0",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.3",
+    "express-rate-limit": "^7.5.1",
+    "openai": "^7.45.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
